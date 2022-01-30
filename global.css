@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  margin: 0;
+}
+
+p {
+}
+
+header {
+  background-color: #ccc;
+  height: 60px;
+}
+
+footer {
+  background-color: #ccc;
+  height: 60px;
+}
+
+h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+
+  letter-spacing: -0.1rem;
+  /* font-weight: normal; */
+  /* font-family: "Moo Lah Lah"; */
+  transition: 0.5s;
+}
+
+h1:hover {
+  transform: rotateX(180deg);
+}
+
+.container {
+  width: 700px;
+
+  min-height: calc(100vh - 120px);
+  /* border: solid 4px black; */
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin-top: 24px;
+}
+
+header a {
+  display: inline-block;
+  margin: 8px 0 0 8px;
+}
